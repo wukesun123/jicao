@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txtArrivalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrival Time" />
+
+    <TextView
+        android:id="@+id/txtRunTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run Time" />
+
+    <TextView
+        android:id="@+id/txtPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priority" />
+    <TextView
+        android:id="@+id/txtUsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Used Time" />
+    <TextView
+        android:id="@+id/txtNeedP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need P" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+</LinearLayout>

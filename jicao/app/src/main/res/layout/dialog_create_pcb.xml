@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="进程名" />
+
+    <EditText
+        android:id="@+id/edtArrivalTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="到达时间"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtRunTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="需要运行时间"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="优先级"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtNeedP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="需求资源"
+        android:inputType="number" />
+
+</LinearLayout>
